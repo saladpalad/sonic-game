@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonic Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <audio controls loop id="music" src="audio/sonic-music.mp3"></audio>
+    <div class="score" data-score> 0 </div>
+    <div class="starting-screen" data-start-screen>Press Any Key to Start Playing</div>
+    <div class="game" data-game>
+        <div class="score" data-score> 0 </div>
+        <img src="img/ground.png" alt="" class="ground" data-starting-ground>
+        <img src="img/ground.png" alt="" class="ground" data-ground>
+        <img src="img/ground.png" alt="" class="ground" data-ground>     
+        <img src="img/sonic-stationary.png" alt="" class="sonic" data-sonic>  
+    </div>
+
+    <script src = 'script.js' type = 'module'></script>
+</body>
+</html>
